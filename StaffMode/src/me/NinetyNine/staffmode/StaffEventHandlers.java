@@ -21,7 +21,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 public class StaffEventHandlers implements Listener {
 
-	// Edited by NinetyNine 3/3/18
+	// Edited by NinetyNine 3/3/18.
 	
 	@EventHandler
 	public void RandomTP(PlayerInteractEvent e) {
