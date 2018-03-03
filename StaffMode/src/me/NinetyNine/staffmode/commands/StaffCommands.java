@@ -107,6 +107,7 @@ public class StaffCommands implements CommandExecutor, Listener {
 			}
 		}
 
+		// Just an example, feel free to remove/replace this
 		if (cmd.getName().equalsIgnoreCase("vanish")) {
 			if (player.hasPermission("staffmode.vanish")) {
 				Player pl;
