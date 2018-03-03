@@ -95,6 +95,7 @@ public class StaffCommands implements CommandExecutor, Listener {
 
 		if (cmd.getName().equalsIgnoreCase("chat")) {
 			if (player.hasPermission("staffmode.clear")) {
+				// edited, thx
 				for (int i = 0; i < 100; i++)
 					Bukkit.getServer()
 							.broadcastMessage("\n" + ChatColor.DARK_RED
