@@ -96,13 +96,13 @@ public class StaffCommands implements CommandExecutor, Listener {
 		if (cmd.getName().equalsIgnoreCase("chat")) {
 			if (player.hasPermission("staffmode.clear")) {
 				// edited, thx
-				for (int i = 0; i < 100; i++)
-					Bukkit.getServer()
-							.broadcastMessage("\n" + ChatColor.DARK_RED
+				for (int i = 0; i < 100; i++) {
+					Bukkit.getServer().broadcastMessage("\n" + ChatColor.DARK_RED
 									+ "=============================================\n" + ChatColor.DARK_PURPLE
 									+ "The server chat has been cleared by " + ChatColor.DARK_RED
 									+ player.getPlayer().getName() + ChatColor.DARK_PURPLE + "!" + ChatColor.DARK_RED
 									+ "=============================================\n");
+				}
 			} else {
 				player.sendMessage("§1[§4StaffMode§1] §l§cYou do not have permissions to use this!");
 			}
