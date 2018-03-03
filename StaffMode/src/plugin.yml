@@ -1,0 +1,20 @@
+name: StaffMode
+main: me.NinetyNine.staffmode.StaffMode
+version: 1.0 BETA
+author: NinetyNine
+description: Use this to administrate your server!
+commands: 
+   staff:
+     usage: /<command>
+     aliases: [sm]
+     description: It will give you all the items needed!
+     permission: staffmode.use
+   chat:
+     usage: /<command>
+     description: Clears the chat.
+     permission: staffmode.clear
+   vanish:
+    usage: /<command>
+    aliases: [v]
+    description: Hides you!
+    permission: staffmode.vanish
