@@ -6,7 +6,7 @@ import me.NinetyNine.staffmode.commands.StaffCommands;
 
 public class StaffMode extends JavaPlugin {
 
-	// Added some by NinetyNine 3/3/18.
+	// Added some by NinetyNine 3/3/18
 	@Override
 	public void onEnable() {
         getLogger().info("[StaffMode]" + " StaffMode has been enabled!");
