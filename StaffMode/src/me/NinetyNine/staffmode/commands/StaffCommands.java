@@ -22,7 +22,7 @@ import org.bukkit.potion.PotionEffectType;
 
 public class StaffCommands implements CommandExecutor, Listener {
 
-	// Added some code NinetyNine 3/3/18.
+	// Added some code NinetyNine 3/3/18
 	
 	private ArrayList<Player> vanished = new ArrayList<Player>();
 	private ArrayList<Player> staff = new ArrayList<Player>();
