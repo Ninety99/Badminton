@@ -1,0 +1,10 @@
+name: Badminton
+version: 1.0 ALPHA
+main: me.NinetyNine.badminton.Main
+author: NinetyNine
+description:
+commands:
+  badminton:
+    usage: /<command>
+    description: Get the badminton load out!
+    permission: badminton.use
